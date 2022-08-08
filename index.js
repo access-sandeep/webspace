@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 // Create application/x-www-from-urlencoded parser
 var urlencodedParser = bodyParser.urlencoded({extended: false});
 
-const port = '8080';
+const port = '80';
 
 const app = express();
 
