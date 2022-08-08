@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('./partials/head'); %>
+</head>
+<body class="container">
+
+<header>
+  <%- include('./partials/header'); %>
+</header>
+
+<main>
+<div class="row">
+  <div class="col-sm-8">
+    <div class="jumbotron">
+      <h1>Sujoy Mukherji</h1>
+      <p>Welcome to the space of Sujoy</p>
+      <%- include('./partials/sujoy-carousal')%>
+    </div>
+  </div>
+
+  <div class="col-sm-4">
+    <div class="well">
+      <h3>Space for sidebar</h3>
+      <%- include('./partials/sidebar');%>
+    </div>
+  </div>
+</div>
+</main>
+
+<footer>
+  <%- include('./partials/footer'); %>
+</footer>
+
+</body>
+</html>

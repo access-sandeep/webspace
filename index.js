@@ -17,6 +17,11 @@ app.get('/', (req, res)=>{
 	res.render('home');
 });
 
+
+app.get('/sujoy', (req, res)=>{
+	res.render('sujoy-home');
+});
+
 app.all('*', (req, res)=>{
 	res.render('404');
 });
